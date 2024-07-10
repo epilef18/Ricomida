@@ -1,0 +1,39 @@
+#logo {
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+}
+header {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#carrusel {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#lineacarrusel {
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 600px) {
+  #carrusel {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #lineacarrusel {
+    display: none;
+  }
+}
+#receta {
+  width: 100%;
+  margin-left: 30px;
+  padding-right: 30px;
+}
+#receta{
+  color: black;
+}
+#receta.dbl {
+  color: red;
+}

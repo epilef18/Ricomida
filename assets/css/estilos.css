@@ -1,21 +1,40 @@
+body {
+  font-family: "Cabin", sans-serif;
+  color: #373a3c;
+}
+header {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+header img {
+  max-height: 90%;
+}
+footer h1 {
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+}
 #logo {
   font-family: "Lobster", sans-serif;
   font-size: 40px;
 }
-header {
-  padding-left: 30px;
-  padding-right: 30px;
-}
 #carrusel {
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
-#lineacarrusel {
+#receta {
   width: 100%;
-  margin-left: 30px;
-  margin-right: 30px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  text-align: left;
 }
+#newsletter {
+  padding-top: 5cm;
+  padding-bottom: 5cm;
+}
+#newsletter h2 {
+  padding-bottom: 1cm;
+}
+/* esconder carrusel y linea */
 @media screen and (max-width: 600px) {
   #carrusel {
     display: none;
@@ -26,14 +45,10 @@ header {
     display: none;
   }
 }
-#receta {
-  width: 100%;
-  margin-left: 30px;
-  padding-right: 30px;
+/* Función dobleclick */
+.negro {
+  color: #373a3c;
 }
-#receta{
-  color: black;
-}
-#receta.dbl {
+.rojo {
   color: red;
 }
